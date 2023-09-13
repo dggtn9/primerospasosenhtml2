@@ -7,16 +7,25 @@
 }
 
 /* Navbar styles */
-.navbar {
-  text-align: center;
+.header {
   box-sizing: border-box;
-  color: rgba(20, 54, 1, 1);
-  margin-left: 20px;
   background-color: #fff;
-  transition: color 0.2s;
-  flex-direction: column;
-  align-items: center;
   border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  height: 15vh;
+}
+
+.navbar {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+}
+
+.menu {
+  float: right;
 }
 
 .nav-link {
@@ -29,8 +38,9 @@
   line-height: normal;
   letter-spacing: 0.06875rem;
   float: right;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
+ 
 }
 
 a:link {
@@ -46,14 +56,29 @@ a:active {
   text-decoration: none;
 }
 
+.logo {
+  float: left;
+}
+
+.logo img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*Tipografia y color de textos*/
 .datos {
   color: rgba(20, 54, 1, 1);
   font-family: Poppins;
   font-size: 1.375rem;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0.06875rem;
+  list-style: none;
 }
 
-
+/*Fotos cv*/
+.fotocv {
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
+}

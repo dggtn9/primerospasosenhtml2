@@ -93,4 +93,11 @@ a:active {
   position: fixed;     
 }
 
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
 

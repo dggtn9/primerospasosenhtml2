@@ -77,3 +77,20 @@ a:active {
   width: 250px;
   height: 250px;
 }
+
+.boton{
+  background-color: #4CAF50; /* Green */
+  border-radius:15px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  margin-top: 260px;
+  margin-left: 587px;
+  position: fixed;     
+}
+
+

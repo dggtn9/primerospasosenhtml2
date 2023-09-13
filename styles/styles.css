@@ -60,11 +60,6 @@ a:active {
   float: left;
 }
 
-.logo img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
 /*Tipografia y color de textos*/
 .datos {
   color: rgba(20, 54, 1, 1);

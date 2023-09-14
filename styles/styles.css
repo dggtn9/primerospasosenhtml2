@@ -4,24 +4,37 @@
   padding: 0;
   box-sizing: border-box;
   color: rgba(20, 54, 1, 1);
+  font-family: var(--font-whyte);
 }
-
+body{
+  background-color: var(--surface-primary);
+  color: var(--text-primary);
+  font-family: var(--font-whyte);
+  text-rendering: optimizelegibility;
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  
+}
 /* Navbar styles */
-.header {
-  box-sizing: border-box;
-  background-color: #fff;
-  border-bottom: 1px solid #dbdbdb;
-  width: 100%;
-  height: 15vh;
-}
-
 .navbar {
+
+  font-feature-settings: "kern";
+  font-kerning: normal;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: var(--font-whyte);
   box-sizing: border-box;
   background-color: #fff;
   border-bottom: 1px solid #dbdbdb;
   width: 100%;
-  height: 15vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 48px;
   display: flex;
+  position: relative;
 }
 
 .menu {
@@ -29,9 +42,10 @@
 }
 
 .nav-link {
+
   list-style-type: none;
   color: #143601;
-  font-family: Poppins;
+  font-family: var(--font-whyte);
   font-size: 1.375rem;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +54,6 @@
   float: right;
   text-align: right;
   padding: 14px 16px;
- 
 }
 
 a:link {
@@ -56,31 +69,41 @@ a:active {
   text-decoration: none;
 }
 
-.logo {
-  float: left;
-}
-
 /*Tipografia y color de textos*/
 .datos {
   color: rgba(20, 54, 1, 1);
-  font-family: Poppins;
   font-size: 1.375rem;
-  font-weight: 400;
+  font-weight: medium;
   line-height: normal;
   letter-spacing: 0.06875rem;
   list-style: none;
+  margin-top: 150px;
+  margin-left: 140px;
+  font-family: var(--font-whyte);
+}
+.texto{
+  color: rgba(20, 54, 1, 1);
+  font-size: 1.375rem;
+  font-weight: medium;
+  list-style: none;
+  margin-top: 150px;
+  margin-left: 140px;
+  font-family: var(--font-whyte);
 }
 
+.negritas{font-weight: bold;}
+
 /*Fotos cv*/
-.fotocv {
+.fotocv4 {
   border-radius: 8px;
   width: 250px;
   height: 250px;
+  float:right
 }
 
-.boton{
-  background-color: #4CAF50; /* Green */
-  border-radius:15px;
+.boton {
+  background-color: rgba(20, 54, 1, 1);
+  border-radius: 15px;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -90,14 +113,16 @@ a:active {
   transition-duration: 0.4s;
   margin-top: 260px;
   margin-left: 587px;
-  position: fixed;     
+  position: fixed;
+  font-family: var(--font-whyte);
 }
+
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  .menu, .main, .right {
+  .menu,
+  .main,
+  .right {
     width: 100%;
   }
 }
-
-
